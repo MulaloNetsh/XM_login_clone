@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+    </head>
+
+    <body>
+        <div class="login-container">
+            <img class="logo" 
+            src="https://cloud.xm-cdn.com/static/xm/common/logos/xm-logo.svg?v=c61f2f15f5839eb45329651a81c787ae">
+            <div class="login-card">
+                <form class="login-form">
+                    <select class="lang-dropdown" name="Language">
+                        <option value="english" selected>English</option>
+                        <option value="afrikaans">Afrikaans</option>
+                        <option value="Zulu">Zulu</option>
+                        <option value="tshivenda">Tshivenda</option>
+                    </select>
+                    <h1>Login</h1>
+                    <label for="email">Email</label>
+                   
+                    <div class="tooltip"> <i class="fa fa-info-circle"></i>
+                        <div class="tooltiptext">
+                            <h3>Email</h3>
+                            <p>gin with your email if you just registered, or you already have an XM profile.</p>       
+                            <p>If you don't have an XM profile yet, enter your MetaTrader credentials to proceed with 
+                                creating one. The XM profile consolidates all your trading accounts under the same email,
+                                allowing you to login with your email address.</p>
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <br>
+                    <label for="pass">Password</label>
+                    <br>
+                    <input type="password" id="pass" placeholder="Password" required>
+                    <br>
+                    <a class="forgot-pass" href="#">Forgot your password?</a>
+                    <br>
+                    <button>Login</button>
+                    <br>
+                    <p class="new">New to XM? <a href="#"class="open-acount">Open an account</a></p>
+
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>
